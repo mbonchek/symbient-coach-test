@@ -1,0 +1,28 @@
+{
+  "name": "symbient-academy",
+  "version": "1.0.0",
+  "description": "The world's first training institution for authentic human-AI partnership",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "ai",
+    "partnership",
+    "collaboration",
+    "training",
+    "symbience",
+    "consciousness",
+    "symbiosis"
+  ],
+  "author": "Symbient Academy",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^28.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
