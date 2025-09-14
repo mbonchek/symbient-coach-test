@@ -22,11 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (beginTrainingBtn) {
         beginTrainingBtn.addEventListener('click', function() {
-            // Scroll to training section
-            document.getElementById('training').scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
+            // Redirect to training page
+            window.location.href = 'training.html';
         });
     }
 
